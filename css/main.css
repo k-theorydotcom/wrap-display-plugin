@@ -1,0 +1,26 @@
+/*
+body {
+	background: blue !important;
+}
+*/
+
+.wrap-media-embed iframe {
+	width: 320px !important;
+	height: 455px !important;
+	
+}
+
+/*
+img.wrap-embed  {
+	width: 320px;
+	height: 455px;
+	
+}
+*/
+img.wrap-embed  {
+    width: 100%;
+    height: auto;
+    position: relative;
+    display: block !important;
+	
+}
