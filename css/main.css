@@ -1,26 +1,36 @@
 /*
-body {
-	background: blue !important;
-}
-*/
 
-.wrap-media-embed iframe {
-	width: 320px !important;
-	height: 455px !important;
-	
-}
+Main styles
 
-/*
-img.wrap-embed  {
-	width: 320px;
-	height: 455px;
-	
-}
 */
 img.wrap-embed  {
     width: 100%;
+    max-width: 640px;
     height: auto;
     position: relative;
     display: block !important;
-	
+	cursor: pointer;
+}
+
+a.wrap-link-embed {
+	max-width: 640px;
+	display: block;
+}
+
+img.wrap-embed.large {
+	width: 50%;
+	height: auto;
+}
+
+img.wrap-embed.medium {
+	width: 33%;
+	height: auto;
+}
+
+img.wrap-embed.small {
+	width: 25%;
+	height: auto;
+}
+
+.wrap-media-embed iframe {
 }

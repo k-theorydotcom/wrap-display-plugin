@@ -1,0 +1,98 @@
+/* -- Styles required for the inline Phone Embed --*/
+
+.wrap-media-embed.wrap-media-embed-full-screen {
+  background: #333232;
+  top: calc(50% - 600px / 2 + 95px);
+  left: calc(25% - 383px / 2 + 35px);
+  width: calc(383px - 156px);
+  height: calc(600px - 200px);
+  cursor: pointer;
+  z-index: 1;
+}
+
+.wrap-media-embed.wrap-media-embed-full-screen iframe {
+  top: 0;
+  left: 0;
+  width: calc(383px - 155px);
+  height: calc(600px - 195px);
+  background: transparent;
+  cursor: pointer;
+}
+
+
+.wrap-phone .navBar {
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: calc(50% - 600px / 2 + 100px);
+  left: calc(25% - 383px / 2 + 35px);
+  width: calc(383px - 156px);
+  height: 50px;
+  z-index: 2;
+  position: absolute;
+  display: block;
+}
+.wrap-phone .navBar:before {
+  position: absolute;
+  content: "";
+  background: #363535;
+  width: 100%;
+  height: 3px;
+  top: -3px;
+}
+.wrap-phone .navBar:after {
+  position: absolute;
+  content: "";
+  background: #F5F6F8;
+  width: 110%;
+  left: -5%;
+  height: 3px;
+  top: -6px;
+}
+.wrap-phone .navBar.Light {
+  background-image: url("https://dl.dropbox.com/s/viq5rpuop72nk2j/nav.jpg");
+}
+.wrap-phone .navBar.Dark {
+  background-image: url("https://dl.dropbox.com/s/a020um8iajtam2a/navDark.jpg");
+}
+.wrap-phone .bottomBar {
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: calc(50% + 600px / 2 - 129px);
+  left: calc(25% - 383px / 2 + 35px);
+  width: calc(383px - 156px);
+  height: 50px;
+  z-index: 2;
+  position: absolute;
+  display: block;
+}
+.wrap-phone .bottomBar.Light {
+  background-image: url("https://dl.dropbox.com/s/btrr7o7e0y7wj82/bottomBar.jpg");
+}
+.wrap-phone .bottomBar.Dark {
+  background-image: url("https://dl.dropbox.com/s/3yihqhrtz28fjdg/bottomBarDark.jpg");
+}
+.wrap-phone .phone {
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: calc(50% - 600px / 2);
+  left: calc(25% - 383px / 2);
+  width: 766px;
+  height: 600px;
+  position: absolute;
+  display: block;
+}
+.wrap-phone .phone.Gold {
+  background-image: url("https://dl.dropbox.com/s/eiras5dfjr36kac/Apple%20iPhone%20SE%20Gold.png");
+}
+.wrap-phone .phone.Silver {
+  background-image: url("https://dl.dropbox.com/s/lc8ac2zgqxc7g8d/Apple%20iPhone%20SE%20Silver.png");
+}
+.wrap-phone .phone.RoseGold {
+  background-image: url("https://dl.dropbox.com/s/lzrhzcvhbtvkjjs/Apple%20iPhone%20SE%20Rose%20Gold.png");
+}
+.wrap-phone .phone.SpaceGray {
+  background-image: url("https://dl.dropbox.com/s/xobcjy86az2zcoh/Apple%20iPhone%20SE%20Space%20Gray.png");
+}
+.container .jumbotron .left * {
+/*   display: none; */
+}
